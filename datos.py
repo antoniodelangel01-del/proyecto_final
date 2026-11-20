@@ -1,7 +1,6 @@
 import json
 import os
 
-# Guarda el JSON junto a este archivo, aunque se ejecute desde otra carpeta.
 carpeta = os.path.dirname(os.path.abspath(__file__))
 archivo_json = os.path.join(carpeta, "estudiantes.json")
 
